@@ -4,30 +4,32 @@ This project was created by reviewing [The PHP Practitioner](https://laracasts.c
 
 NOTE: The project structure evolves over the course of the series.  Accordingly, file names and directories referenced in the code blocks below may not necessarily correspond to the names of files/directories reflected in the project's final state.
 
-## Table of Contents
-- Episode 3: [Variables](#id-section3)
-- Episode 4: [PHP and HTML](#id-section4)
-- Episode 5: [Separate PHP Logic from Presentation](#id-section5)
-- Episode 6: [Understanding Arrays](#id-section6)
-- Episode 7: [Associative Arrays](#id-section7)
-- Episode 9: [Conditionals](#id-section9)
-- Episode 10: [Functions](#id-section10)
-- Episode 11: [MySQL 101](#id-section11)
-- Episode 12: [Classes 101](#id-section12)
-- Episode 13: [Intro to PDO (PHP Data Objects)](#id-section13)
-- Episode 14: [PDO Refactoring and Collaborators](#id-section14)
-- Episode 15: [Hide Your Secret Passwords](#id-section15)
-- Episode 16: [Routing](#id-section16)
-- Episode 17: [DRY Up Your Views](#id-section17)
-- Episode 18: [Array Filtering](#id-section18)
-- Episode 19: [Forms, Request Types, and Routing](#id-section19)
-- Episode 20: [Dynamic Inserts With PDO](#id-section20)
-- Episode 21: [Composer Autoloading](#id-section21)
-- Episode 22: [Your First Dependency Injection ("DI") Container](#id-section22)
-- Episode 23: [Refactoring to Controller Classes](#id-section23)
-- Episode 24: [Switch to Namespaces](#id-section24)
+<div id='toc'/>
 
-<div id='id-section3'/>
+## Table of Contents
+- Episode 3: [Variables](#episode-3)
+- Episode 4: [PHP and HTML](#episode-4)
+- Episode 5: [Separate PHP Logic from Presentation](#episode-5)
+- Episode 6: [Understanding Arrays](#episode-6)
+- Episode 7: [Associative Arrays](#episode-7)
+- Episode 9: [Conditionals](#episode-9)
+- Episode 10: [Functions](#episode-10)
+- Episode 11: [MySQL 101](#episode-11)
+- Episode 12: [Classes 101](#episode-12)
+- Episode 13: [Intro to PDO (PHP Data Objects)](#episode-13)
+- Episode 14: [PDO Refactoring and Collaborators](#episode-14)
+- Episode 15: [Hide Your Secret Passwords](#episode-15)
+- Episode 16: [Routing](#episode-16)
+- Episode 17: [DRY Up Your Views](#episode-17)
+- Episode 18: [Array Filtering](#episode-18)
+- Episode 19: [Forms, Request Types, and Routing](#episode-19)
+- Episode 20: [Dynamic Inserts With PDO](#episode-20)
+- Episode 21: [Composer Autoloading](#episode-21)
+- Episode 22: [Your First Dependency Injection ("DI") Container](#episode-22)
+- Episode 23: [Refactoring to Controller Classes](#episode-23)
+- Episode 24: [Switch to Namespaces](#episode-24)
+
+<div id='episode-3'/>
 
 ## Episode 3: Variables
 
@@ -53,7 +55,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
 
   `php -S localhost:8080`
 
-<div id='id-section4'/>
+[Back to TOC](#toc)
+
+<div id='episode-4'/>
 
 ## Episode 4: PHP and HTML
 
@@ -79,7 +83,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
     <?= "Hello, " . htmlspecialchars($_GET['name']); ?>
     ```
 
-<div id='id-section5'/>
+[Back to TOC](#toc)
+
+<div id='episode-5'/>
 
 ## Episode 5: Separate PHP Logic from Presentation
 
@@ -93,7 +99,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
   require 'index.view.php';
   ```
 
-<div id='id-section6'/>
+[Back to TOC](#toc)
+
+<div id='episode-6'/>
 
 ## Episode 6: Understanding Arrays
 
@@ -133,7 +141,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
   // $animals = ['dog', 'cat', 'elephant']
   ```
 
-<div id='id-section7'/>
+[Back to TOC](#toc)
+
+<div id='episode-7'/>
 
 ## Episode 7: Associative Arrays
 
@@ -182,7 +192,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
   unset($person['age']);
   ```
 
-<div id='id-section9'/>
+[Back to TOC](#toc)
+
+<div id='episode-9'/>
 
 ## Episode 9: Conditionals
 
@@ -207,7 +219,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
   }
   ```
 
-<div id='id-section10'/>
+[Back to TOC](#toc)
+
+<div id='episode-10'/>
 
 ## Episode 10: Functions
 
@@ -227,7 +241,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
   dd($animals);
   ```
 
-<div id='id-section11'/>
+[Back to TOC](#toc)
+
+<div id='episode-11'/>
 
 ## Episode 11: MySQL 101
 
@@ -267,7 +283,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
 
   `mysql> select * from my_table_name;`
 
-<div id='id-section12'/>
+[Back to TOC](#toc)
+
+<div id='episode-12'/>
 
 ## Episode 12: Classes 101
 
@@ -327,7 +345,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
     </ul>
     ```
 
-<div id='id-section13'/>
+[Back to TOC](#toc)
+
+<div id='episode-13'/>
 
 ## Episode 13: Intro to PDO (PHP Data Objects)
 
@@ -374,7 +394,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
     </ul>
     ```
 
-<div id='id-section14'/>
+[Back to TOC](#toc)
+
+<div id='episode-14'/>
 
 ## Episode 14: PDO Refactoring and Collaborators
 
@@ -450,7 +472,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
   }
   ```
 
-<div id='id-section15'/>
+[Back to TOC](#toc)
+
+<div id='episode-15'/>
 
 ## Episode 15: Hide Your Secret Passwords
 
@@ -513,7 +537,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
   }
   ```
 
-<div id='id-section16'/>
+[Back to TOC](#toc)
+
+<div id='episode-16'/>
 
 ## Episode 16: Routing
 
@@ -625,7 +651,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
   }
   ```
 
-<div id='id-section17'/>
+[Back to TOC](#toc)
+
+<div id='episode-17'/>
 
 ## Episode 17: DRY Up Your Views
 
@@ -690,7 +718,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
   </html>
   ```
 
-<div id='id-section18'/>
+[Back to TOC](#toc)
+
+<div id='episode-18'/>
 
 ## Episode 18: Array Filtering
 
@@ -747,7 +777,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
 
   ```
 
-<div id='id-section19'/>
+[Back to TOC](#toc)
+
+<div id='episode-19'/>
 
 ## Episode 19: Forms, Request Types, and Routing
 
@@ -886,7 +918,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
 
     ```
 
-<div id='id-section20'/>
+[Back to TOC](#toc)
+
+<div id='episode-20'/>
 
 ## Episode 20: Dynamic Inserts With PDO
 
@@ -996,7 +1030,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
     <?php require('partials/footer.php'); ?>
     ```
 
-<div id='id-section21'/>
+[Back to TOC](#toc)
+
+<div id='episode-21'/>
 
 ## Episode 21: Composer Autoloading
 
@@ -1030,7 +1066,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
 
 - To rebuild the files in your `/vendor` directory (which is necessary if you have added new files to your project), use Composer's `dump-autoload` command.
 
-<div id='id-section22'/>
+[Back to TOC](#toc)
+
+<div id='episode-22'/>
 
 ## Episode 22: Your First Dependency Injection ("DI") Container
 
@@ -1085,7 +1123,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
     ));
     ```
 
-<div id='id-section23'/>
+[Back to TOC](#toc)
+
+<div id='episode-23'/>
 
 ## Episode 23: Refactoring to Controller Classes
 
@@ -1297,7 +1337,9 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
   <?php require('partials/footer.php'); ?>
   ```
 
-<div id='id-section24'/>
+[Back to TOC](#toc)
+
+<div id='episode-24'/>
 
 ## Episode 24: Switch to Namespaces
 
@@ -1450,3 +1492,5 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
       }
   }
   ```
+
+[Back to TOC](#toc)
