@@ -29,8 +29,6 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
 - Episode 23: [Refactoring to Controller Classes](#id-section23)
 - Episode 24: [Switch to Namespaces](#id-section24)
 
-[Back to TOC](#id-toc)
-
 <div id='id-section3'/>
 
 ## Episode 3: Variables
