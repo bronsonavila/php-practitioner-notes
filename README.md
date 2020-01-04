@@ -912,7 +912,7 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
     <?php
 
     // $_POST super global contains form data passed via HTTP POST method.
-    // (NOTE: If you need obtain information about the request to the server,
+    // (NOTE: If you need to obtain information about the request to the server,
     // then use the $_REQUEST super global.)
     var_dump("You typed {$_POST['name']}.");
 
