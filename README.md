@@ -520,15 +520,15 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
 
   class Connection
   {
-      public static function make($config)
+      public static function make($db)
       {
           try {
               // Fourth argument may include "options":
               return new PDO(
-                  "{$config['connection']};dbname={$config['name']}",
-                  $config['username'],
-                  $config['password'],
-                  $config['options']
+                  "{$db['connection']};dbname={$db['name']}",
+                  $db['username'],
+                  $db['password'],
+                  $db['options']
               );
           } catch (PDOException $e) {
               die($e->getMessage());
