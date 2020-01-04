@@ -864,7 +864,7 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
     }
     ```
 
-4.  Configure your Request class to parse the URL path and to process requests different depending on the request type:
+4.  Configure your Request class to (1) parse the URL path and (2) process different requests depending on the request type:
 
     ```php
     // core/Request.php
