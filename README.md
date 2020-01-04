@@ -89,7 +89,7 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
 
 ## Episode 5: Separate PHP Logic from Presentation
 
-- Rather than having all HTML content to be served from a single `index.php` file, you can separate HTML content into **views**, and then apply all the logic necessary to display those views in the main `index.php` file, which will contain render the data contained in your views. For example, you could (1) create a file named `index.view.php` that contains HTML and a reference to a `$greeting` variable, and (2) insert the following code into your `index.php` file to render the view with the variable defined:
+- Rather than having all HTML content served from a single `index.php` file, you can separate HTML content into **views**, and then apply all the logic necessary to display those views in the main `index.php` file, which will render the data contained in your views. For example, you could (1) create a file named `index.view.php` that contains HTML and a reference to a `$greeting` variable, and (2) insert the following code into your `index.php` file to render the view with the variable defined:
 
   ```php
   <?php
