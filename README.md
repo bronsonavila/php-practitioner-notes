@@ -157,7 +157,7 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
   ];
   ```
 
-- If you iterate over an associative array in the same manner as a basic array, you will only iterate over the value. If you also want to iterate over the key, then use the following syntax:
+- If you iterate over an associative array in the same manner as a basic array, you will only iterate over the values. If you also want to iterate over the keys, then use the following syntax:
 
   ```html
   <?php foreach ($person as $key => $val) : ?>
