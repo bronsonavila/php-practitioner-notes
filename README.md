@@ -1343,7 +1343,7 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
 
 ## Episode 24: Switch to Namespaces
 
-- Namespacing is a technique used to prevent identifiers (e.g., objects/variables) from colliding with other identifiers in the global namespace.  Common practice is to have a namespace mimic your folder structure.  Thus, if you have a directory called `/controllers` that contains a controller labeled `PagesController.php`, you would insert the following `namespace` at the top of the file:
+- Namespacing is a technique used to prevent identifiers (e.g., objects/variables) from colliding with other identifiers in the global namespace.  Common practice is to have a namespace mimic your folder structure.  Thus, if you have a directory called `/controllers` that contains a controller labeled `UsersController.php`, you would insert the following `namespace` at the top of the file:
 
   ```php
   <?php
