@@ -51,7 +51,7 @@ NOTE: The project structure evolves over the course of the series.  Accordingly,
     echo "Hello, {$name}."
     ```
 
-- SIDE NOTE: Use PHP CLI to run index.php file in a local server:
+- SIDE NOTE: Use PHP CLI to run `index.php` in a local server:
 
   `php -S localhost:8080`
 
